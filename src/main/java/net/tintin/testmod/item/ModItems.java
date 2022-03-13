@@ -9,7 +9,7 @@ import net.tintin.testmod.TestMod;
 
 public class ModItems {
 
-    public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new FabricItemSettings().group(ModItemGroup.MOD_STUFF)));
     public static final Item DUCK = registerItem("duck", new Item(new FabricItemSettings().group(ModItemGroup.RANDOM)));
 
     private static Item registerItem(String name, Item item){

@@ -3,6 +3,9 @@
   "item.testmod.duck" : "Duck",
 
   "block.testmod.tintin_block" : "Tintin Block",
+  "block.testmod.tin_block" : "Tin Block",
+  "block.testmod.tin_ore" : "Tin Ore",
 
-  "itemGroup.testmod.random" : "Random Stuff "
+  "itemGroup.testmod.random" : "Random Stuff",
+  "itemGroup.testmod.mod_stuff" : "Test Mod Stuff"
 }

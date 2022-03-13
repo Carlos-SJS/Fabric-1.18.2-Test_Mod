@@ -9,4 +9,5 @@ import net.tintin.testmod.TestMod;
 public class ModItemGroup {
 
     public static final ItemGroup RANDOM = FabricItemGroupBuilder.build(new Identifier(TestMod.MOD_ID, "random"), () -> new ItemStack(ModItems.DUCK));
+    public static final ItemGroup MOD_STUFF = FabricItemGroupBuilder.build(new Identifier(TestMod.MOD_ID, "random"), () -> new ItemStack(ModItems.TIN_INGOT));
 }
