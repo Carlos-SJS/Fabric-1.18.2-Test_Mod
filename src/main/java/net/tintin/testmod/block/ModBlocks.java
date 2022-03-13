@@ -10,10 +10,11 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.tintin.testmod.TestMod;
+import net.tintin.testmod.item.ModItemGroup;
 
 public class ModBlocks {
 
-    public static final Block TINTIN_BLOCK = registerBlock("tintin_block", new Block(FabricBlockSettings.of(Material.WOOD).luminance(15)), ItemGroup.DECORATIONS);
+    public static final Block TINTIN_BLOCK = registerBlock("tintin_block", new Block(FabricBlockSettings.of(Material.WOOD).luminance(15)), ModItemGroup.RANDOM);
 
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);

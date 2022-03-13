@@ -1,4 +1,8 @@
 {
   "item.testmod.tin_ingot" : "Tin Ingot",
-  "block.testmod.god_block" : "GOD Block"
+  "item.testmod.duck" : "Duck",
+
+  "block.testmod.tintin_block" : "Tintin Block",
+
+  "itemGroup.testmod.random" : "Random Stuff "
 }
