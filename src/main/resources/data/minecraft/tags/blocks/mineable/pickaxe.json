@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "testmod : tin_block",
+    "testmod : tin_ore"
+  ]
+}
