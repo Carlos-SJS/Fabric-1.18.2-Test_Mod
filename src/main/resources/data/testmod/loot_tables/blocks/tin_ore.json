@@ -25,20 +25,11 @@
                   }
                 }
               ],
-              "name": "minecraft:copper_ore"
+              "name": "testmpod:tin_ore"
             },
             {
               "type": "minecraft:item",
               "functions": [
-                {
-                  "function": "minecraft:set_count",
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "min": 2.0,
-                    "max": 5.0
-                  },
-                  "add": false
-                },
                 {
                   "function": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
@@ -48,7 +39,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:raw_copper"
+              "name": "testmod:raw_tin"
             }
           ]
         }

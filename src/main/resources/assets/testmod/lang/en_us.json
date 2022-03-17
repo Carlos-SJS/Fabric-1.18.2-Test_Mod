@@ -1,5 +1,6 @@
 {
   "item.testmod.tin_ingot" : "Tin Ingot",
+  "item.testmod.raw_tin" : "Raw Tin",
   "item.testmod.duck" : "Duck",
 
   "block.testmod.tintin_block" : "Tintin Block",

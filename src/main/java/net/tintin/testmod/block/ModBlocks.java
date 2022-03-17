@@ -15,8 +15,8 @@ import net.tintin.testmod.item.ModItemGroup;
 public class ModBlocks {
 
     public static final Block TINTIN_BLOCK = registerBlock("tintin_block", new Block(FabricBlockSettings.of(Material.WOOD).luminance(15)), ModItemGroup.RANDOM);
-    public static final Block TIN_BLOCK = registerBlock("tin_block", new Block(FabricBlockSettings.of(Material.METAL).hardness(6f).requiresTool()), ModItemGroup.MOD_STUFF);
-    public static final Block TIN_ORE = registerBlock("tin_ore", new  Block(FabricBlockSettings.of(Material.STONE).hardness(3f).requiresTool()), ModItemGroup.MOD_STUFF);
+    public static final Block TIN_BLOCK = registerBlock("tin_block", new Block(FabricBlockSettings.of(Material.METAL).hardness(1.2f).requiresTool()), ModItemGroup.MOD_STUFF);
+    public static final Block TIN_ORE = registerBlock("tin_ore", new  Block(FabricBlockSettings.of(Material.STONE).hardness(.7f).requiresTool()), ModItemGroup.MOD_STUFF);
 
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);
