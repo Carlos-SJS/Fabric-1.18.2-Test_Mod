@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "testmod:lettuce"
+    },
+    {
+      "item": "testmod:tomatoe"
+    },
+    {
+      "item": "testmod:cheese"
+    }
+  ],
+  "result": {
+    "item": "testmod:taco",
+    "count": 9
+  }
+}

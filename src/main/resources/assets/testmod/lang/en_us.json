@@ -2,6 +2,11 @@
   "item.testmod.tin_ingot" : "Tin Ingot",
   "item.testmod.raw_tin" : "Raw Tin",
   "item.testmod.duck" : "Duck",
+  "item.testmod.baby" : "Baby",
+  "item.testmod.lettuce" : "Lettuce",
+  "item.testmod.tomatoe" : "Tomatoe",
+  "item.testmod.cheese" : "Cheese",
+  "item.testmod.taco" : "Mexican Taco",
 
   "block.testmod.tintin_block" : "Tintin Block",
   "block.testmod.tin_block" : "Tin Block",

@@ -12,6 +12,11 @@ public class ModItems {
     public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new FabricItemSettings().group(ModItemGroup.MOD_STUFF)));
     public static final Item RAW_TIN = registerItem("raw_tin", new Item(new FabricItemSettings().group(ModItemGroup.MOD_STUFF)));
     public static final Item DUCK = registerItem("duck", new Item(new FabricItemSettings().group(ModItemGroup.RANDOM)));
+    public static final Item BABY = registerItem("baby", new Item(new FabricItemSettings().group(ModItemGroup.RANDOM)));
+    public static final Item LETTUCE = registerItem("lettuce", new Item(new FabricItemSettings().group(ModItemGroup.MOD_STUFF)));
+    public static final Item TOMATOE = registerItem("tomatoe", new Item(new FabricItemSettings().group(ModItemGroup.MOD_STUFF)));
+    public static final Item CHEESE = registerItem("cheese", new Item(new FabricItemSettings().group(ModItemGroup.MOD_STUFF)));
+    public static final Item TACO = registerItem("taco", new Item(new FabricItemSettings().group(ModItemGroup.MOD_STUFF)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(TestMod.MOD_ID, name), item);
