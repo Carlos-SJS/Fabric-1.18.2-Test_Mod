@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:milk_bucket"
+  },
+  "result": "testmod:cheese",
+  "reminder": "minecraft:bucket",
+  "experience": 0.35,
+  "cookingtime": 200
+}
