@@ -4,6 +4,6 @@
     "item": "minecraft:milk_bucket"
   },
   "result": "testmod:cheese",
-  "experience": 0.35,
+  "experience": 0.351,
   "cookingtime": 200
 }
